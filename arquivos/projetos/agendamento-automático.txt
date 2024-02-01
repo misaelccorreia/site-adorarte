@@ -1,0 +1,5 @@
+Agendamento automático da aula experimental
+
+O Gabriel, citou o exemplo da barbearia onde o agendamento é realizado direto, o aluno escolhe de maneira rápida. 
+
+*OBS assim que eu conseguir colocar esse projeto pra rodar, da pra colocar para o Davi na barbearia pra ele não ficar dependendo de link externo, ou para o Junin no corte a domicílio. Ou no mateto para uma call com o produtor.

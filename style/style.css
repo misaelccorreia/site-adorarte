@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --cor-primaria: #FA5711; 
+  --cor-secundaria: #FAFA9B;
+  --cor-tuerciaria: #FAFA9B; 
+  --cor-qaternaria: #FAFA9B;
+}
+
+.principal{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 1366px;
+  height: 72px; 
+  display: flex;
+  background-color: var(--cor-primaria);                          
+} 
+
+.logo_principal{
+  width: 137px;
+  height: 42px;
+  /*flex-shrink: 0;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  */
+}
