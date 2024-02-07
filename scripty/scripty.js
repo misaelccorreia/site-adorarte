@@ -1,1 +1,1 @@
-alert('Está funcionando o Javascript!')
+alert('O Javascript está respondendo!')
