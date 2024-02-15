@@ -1,23 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+/*inserção de fonte: concluida com sucesso.*/
 *{
   margin: 0;
   padding: 0;
+  font-family:"DM Sans", sans-serif;
 }
+
+/*vou ter que corrgir as fotes, tem mais opções de fontes, primaria e secundária.*/
 :root {
   --cor-primaria: #FA5711; 
   --cor-secundaria: #FAFA9B;
   --cor-tuerciaria: #FAFA9B; 
-  --cor-qaternaria: #FAFA9B;
+  --cor-quaternaria: #FAFA9B;
 }
-
+/*Aqui adicionamos o formato de tamanho em rem, seguindo 1rem = 16 pixels */
 .menu{
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 1366px;
-  height: 72px; 
-  display: flex;
-  background-color: var(--cor-primaria);                          
+  width: auto;
+  height: 4.5rem; 
+    display: flex;
+  background-color: var(--cor-primaria);
+  justify-content: space-between;
+  align-items: center;
 } 
+.logo_principal{
+  color: white;
+  display: flex;
+  margin-left: 7.9rem;
+}
+.itens{
+  display: flex;
+  width: 21.9rem;
+  justify-content: space-between;
+  
+}
+.itens .itens_links{
+  text-decoration: none;
+  color: white;
+}
+.agendar_header{
+  display: flex;
+  margin-right: 3.25rem;
+  color: white;
+  background-color: var(--cor-primaria);
+  border-radius: 40px;
+}
 
 .logo_principal{
   width: 137px;
